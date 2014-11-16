@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <title></title>
-  <meta charset="UTF-8">
+ <?php include(components/html-head.php); ?>
 
 </head>
 <body>
  
+ <h1>Hello world</h1>
 
 </body>
 </html>
