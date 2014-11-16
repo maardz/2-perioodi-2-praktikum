@@ -1,12 +1,18 @@
-<!DOCTYPE HTML>
+<?php
+  header("Location: components/new-page.php");
+  exit;
+?>
+<!DOCTYPE html>
 <html>
-<head>
- <?php include(components/html-head.php); ?>
-
-</head>
-<body>
- 
- <h1>Hello world</h1>
-
-</body>
-</html>
+  <head>
+   <?php 
+   require ("components/site-functions.php"); 
+   ?>
+  </head>
+  <body>
+   <?php
+     $argument = " Marge";
+     echo "<p>Hei{$argument}</p>";
+   ?>
+  </body>
+</html

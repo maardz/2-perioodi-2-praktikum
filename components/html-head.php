@@ -1,2 +1,13 @@
- <title></title>
-  <meta charset="UTF-8">
+ 
+ <!DOCTYPE html>
+<html>
+  <head>
+	<?php 
+		require ("html-head.php"); 
+	?>
+  </head>
+  <body>
+  
+  </body>
+</html>
+
